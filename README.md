@@ -1,5 +1,5 @@
 # Chiron
-Chiron is a lightweight Linux distribution for system rescue, diagnostics, and stress testing. It has a terminal and a GUI (X11 / Openbox).
+Chiron is a lightweight Linux distribution for x86_64 devices. It's built for system rescue, diagnostics, and stress testing. It has a terminal and a GUI (X11 / Openbox).
 
 Chiron can be booted from removable media such as USB flash drives and CDs, just write the ISO image to your selected media.
 
