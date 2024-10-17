@@ -51,6 +51,7 @@ A full list of installed packages can be found [here]().
 
 * Speedtest-cli
 * NetworkManager
+* FileZilla
 </details>
 <details>
 <summary>Scripting</summary>
