@@ -11,7 +11,7 @@ Chiron can be booted from removable media such as USB storage devices and CDs, j
 > [!NOTE]  
 > More tools will be added as development progresses.
 
-A full list of installed packages can be found [here]().
+A full list of installed packages can be found [here](https://github.com/MEMESCOEP/Chiron/blob/main/Docs/Packages.md).
 
 <details>
 <summary>Disk utilities</summary>
