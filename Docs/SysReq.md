@@ -28,32 +28,32 @@
 <br/>
 
 ### RAM
-| Process   | Minimum RAM  | Recommended RAM  |
-| --------- | ------------ | ---------------- |
-| Booting   | 1024MB (1GB) | 2048MB (2GB)     |
-| Terminal  | 64MB         | 128MB            |
-| X11 (GUI) | 256MB        | 384MB            |
+| Process   | Minimum RAM | Recommended RAM  |
+| --------- | ----------- | ---------------- |
+| Booting   | 768MB       | 1024MB (1GB)     |
+| Terminal  | 64MB        | 128MB            |
+| X11 (GUI) | 256MB       | 384MB            |
 
 <br/>
 
 ### Graphics & Video
-| Graphics processor / Video standard     | Supported (terminal) | Supported (X11 / GUI)                         |
-| --------------------------------------- | -------------------- | --------------------------------------------- |
-| AMD                                     | 🔍                   | 🔍                                             |
-| ATI                                     | 🔍                   | 🔍                                             |
-| Bochs VBE / VGA Adapter                 | ✅                   | 🚧 (So slow you can see the background update. |
-| Cirrus                                  | ✅                   | ✅                                             |
-| Nvidia (Official driver)                | ⛔ (Not open source) | ⛔ (Not open source)                           |
-| Nvidia (Nouveau)                        | 🔍                   | 🔍                                             |
-| Qemu STD                                | ✅                   | ✅                                             |
-| QXL VGA                                 | 🔍                   | 🔍                                             |
-| QXL                                     | ✅                   | ✅                                             |
-| SVGA                                    | ✅                   | ✅                                             |
-| VMWare SVGA                             | ✅                   | ✅                                             |
-| Virtio VGA                              | ✅                   | ✅                                             |
-| Virtio PCI                              | 🔍                   | 🔍                                             |
-| VboxSVGA                                | ✅                   | ✅                                             |
-| VboxVGA                                 | ✅                   | ✅                                             |
-| VMSVGA (Virtualbox port of VMWare SVGA) | ✅                   | ✅                                             |
-| VESA                                    | ✅                   | ✅                                             |
-| VGA 16 Color                            | ✅                   | ✅                                             |
+| Graphics processor / Video standard     | Supported (terminal) | Supported (X11 / GUI)                       |
+| --------------------------------------- | -------------------- | ------------------------------------------- |
+| AMD                                     | 🔍                   | 🔍                                           |
+| ATI                                     | ✅ (No UEFI support) | ✅ (No UEFI support)                         |
+| Bochs VBE / VGA Adapter                 | ✅                   | 🚧 (Terribly slow on some devices)           |
+| Cirrus                                  | ✅                   | 🚧 (Fatal server errors, AddScreen failures) |
+| Nvidia (Official driver)                | ⛔ (Not open source) | ⛔ (Not open source)                         |
+| Nvidia (Nouveau)                        | 🔍                   | 🔍                                           |
+| Qemu STD                                | ✅                   | ✅                                           |
+| QXL VGA                                 | ✅                   | 🚧 (Mouse cursor disappears)                 |
+| QXL                                     | 🚧 (Boot failures)   | 🚧 (Boot failures)                           |
+| SVGA                                    | ✅                   | ✅                                           |
+| VMWare SVGA                             | ✅                   | ✅                                           |
+| Virtio VGA                              | ✅                   | 🚧 (Mouse cursor disappears)                 |
+| Virtio PCI                              | 🚧 (Boot failures)   | 🚧 (Boot failures)                           |
+| VboxSVGA                                | ✅                   | ✅                                           |
+| VboxVGA                                 | ✅                   | ✅                                           |
+| VMSVGA (Virtualbox port of VMWare SVGA) | ✅                   | ✅                                           |
+| VESA                                    | ✅                   | ✅                                           |
+| VGA 16 Color                            | ✅                   | ✅                                           |
