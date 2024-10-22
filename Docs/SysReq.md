@@ -14,7 +14,7 @@
 | Firmware  | Supported |
 | --------- | --------- |
 | BIOS      | ✅        |
-| UEFI      | 🛠️        |
+| UEFI      | 🚧        |
 
 <br/>
 
@@ -42,16 +42,16 @@
 | AMD                                     | 🔍                   | 🔍                                           |
 | ATI                                     | ✅ (No UEFI support) | ✅ (No UEFI support)                         |
 | Bochs VBE / VGA Adapter                 | ✅                   | 🚧 (Terribly slow on some devices)           |
-| Cirrus                                  | ✅                   | 🚧 (Fatal server errors, AddScreen failures) |
+| Cirrus                                  | ✅                   | 🛠️ (Fatal server errors, AddScreen failures) |
 | Nvidia (Official driver)                | ⛔ (Not open source) | ⛔ (Not open source)                         |
 | Nvidia (Nouveau)                        | 🔍                   | 🔍                                           |
 | Qemu STD                                | ✅                   | ✅                                           |
 | QXL VGA                                 | ✅                   | 🚧 (Mouse cursor disappears)                 |
-| QXL                                     | 🚧 (Boot failures)   | 🚧 (Boot failures)                           |
+| QXL                                     | 🛠️ (Boot failures)   | 🛠️ (Boot failures)                           |
 | SVGA                                    | ✅                   | ✅                                           |
 | VMWare SVGA                             | ✅                   | ✅                                           |
 | Virtio VGA                              | ✅                   | 🚧 (Mouse cursor disappears)                 |
-| Virtio PCI                              | 🚧 (Boot failures)   | 🚧 (Boot failures)                           |
+| Virtio PCI                              | 🛠️ (Boot failures)   | 🛠️ (Boot failures)                           |
 | VboxSVGA                                | ✅                   | ✅                                           |
 | VboxVGA                                 | ✅                   | ✅                                           |
 | VMSVGA (Virtualbox port of VMWare SVGA) | ✅                   | ✅                                           |
