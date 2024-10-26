@@ -4,7 +4,7 @@ Chiron is a lightweight Linux distribution for x86_64 devices. It's built for sy
 <br/>
 
 > [!NOTE]  
-> If you're using Ventoy, you may need to load the ISO image in [memdisk](https://www.ventoy.net/en/doc_memdisk.html) mode. You should only need to do this if you get a kernel panic related to VFS mounting.
+> If you're using Ventoy, you may need to load the ISO image in [Memdisk](https://www.ventoy.net/en/doc_memdisk.html) or [Grub2](https://www.ventoy.net/en/doc_grub2boot.html) mode. You should only need to do this if you get a kernel panic related to VFS mounting or a non-working init file.
 
 Chiron can be booted from removable media such as USB storage devices and CDs, just write the ISO image to your selected media. Using tools like `ventoy` can be useful, as they let you boot multiple ISOs from the same USB storage device.
 
