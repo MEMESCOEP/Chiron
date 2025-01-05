@@ -1,5 +1,5 @@
 # Chiron
-Chiron is a lightweight Linux distribution for x86_64 devices. It's built for system rescue, diagnostics, and stress testing. It has a terminal and a GUI (X11 / Openbox).
+Chiron is a lightweight GUI Linux distribution for x86_64 devices. It's built for system rescue, diagnostics, and stress testing.
 
 <br/>
 
@@ -41,6 +41,8 @@ A full list of installed packages can be found [here](https://github.com/MEMESCO
 * Clonezilla
 * Sysfsutils
 * Gnome Disks
+* SmartMonTools
+* DDRescue
 </details>
 <details>
 <summary>Stress testing</summary>
@@ -48,6 +50,7 @@ A full list of installed packages can be found [here](https://github.com/MEMESCO
 * StressDisk
 * Stress
 * Stress-ng
+* S-Tui
 </details>
 <details>
 <summary>Diagnostics</summary>
@@ -58,6 +61,7 @@ A full list of installed packages can be found [here](https://github.com/MEMESCO
 * Sysdiag
 * Sysbench
 * Smartctl
+* HwInfo
 </details>
 <details>
 <summary>Networking</summary>
@@ -65,6 +69,7 @@ A full list of installed packages can be found [here](https://github.com/MEMESCO
 * Speedtest-cli
 * NetworkManager
 * FileZilla
+* Firefox
 </details>
 <details>
 <summary>Scripting</summary>
@@ -74,16 +79,9 @@ A full list of installed packages can be found [here](https://github.com/MEMESCO
 <details>
 <summary>Other utilities</summary>
 
-* XTerm
-* XCalc
-* XEdit
 * Nano
-* Leafpad
 </details>
 
 ---
 
 <br/>
-
-### Login credentials
-The default login is `root` with no password.
